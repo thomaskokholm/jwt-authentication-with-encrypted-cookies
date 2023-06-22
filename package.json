@@ -1,5 +1,5 @@
 {
-  "name": "next-ecommerce",
+  "name": "jwt-authentication-with-encrypted-cookies",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,12 +9,16 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@panva/hkdf": "^1.1.1",
     "@types/node": "20.3.1",
     "@types/react": "18.2.13",
     "@types/react-dom": "18.2.6",
     "autoprefixer": "10.4.14",
+    "cookies-next": "^2.1.2",
     "eslint": "8.43.0",
     "eslint-config-next": "13.4.6",
+    "jose": "^4.14.4",
+    "nanoid": "^4.0.2",
     "next": "13.4.6",
     "postcss": "8.4.24",
     "react": "18.2.0",
